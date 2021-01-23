@@ -1,8 +1,8 @@
 <?php
 
-define('DBCONNECTION', 'mysql:host=localhost;dbname=art');
-define('DBUSER', 'jimmy');
-define('DBPASS', '121192');
+define('DBCONNECTION', 'mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_cd7e5d31d8cb362');
+define('DBUSER', 'b78beb21e4ae3e');
+define('DBPASS', 'e8f8b975');
 
 
 spl_autoload_register(function ($class) {
@@ -13,5 +13,3 @@ spl_autoload_register(function ($class) {
 
 /* localhost connection */
 $pdo = DatabaseHelper::setConnectionInfo(array(DBCONNECTION, DBUSER, DBPASS));
-
-?>
