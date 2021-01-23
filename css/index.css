@@ -1,0 +1,7 @@
+.art-content, .art-index{
+    margin: 100px 0;
+}
+
+.art-index > div{
+    padding: 2em;
+}
