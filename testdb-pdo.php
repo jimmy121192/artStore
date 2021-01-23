@@ -9,9 +9,9 @@
 
    try {
 
-      $connString = "mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_cd7e5d31d8cb362";
-      $user = "b78beb21e4ae3e";
-      $pass = "e8f8b975";
+      $connString = "mysql:host=z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=wk9lgexv72hbq72a";
+      $user = "t5lhnalqcz77zteh";
+      $pass = "lwt070245kuhx9h2";
 
       $pdo = new PDO($connString, $user, $pass);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

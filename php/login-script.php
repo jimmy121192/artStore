@@ -2,10 +2,10 @@
 session_start();
 ?>
 <?php
-$servername = "us-cdbr-east-03.cleardb.com";
-$username = "b78beb21e4ae3e";
-$password = "e8f8b975";
-$dbname = "heroku_cd7e5d31d8cb362";
+$servername = "z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username = "t5lhnalqcz77zteh";
+$password = "lwt070245kuhx9h2";
+$dbname = "wk9lgexv72hbq72a";
 
 // Check connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
